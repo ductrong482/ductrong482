@@ -1,0 +1,299 @@
+
+body{
+    background-color: white;
+    margin: 0% auto;
+    padding: 0%;
+    width:1900px;
+}
+/* menu  */
+.menu nav ul{
+    /* margin: 0px auto; */
+    padding: 0;
+    width: 1550px;
+    height: 50px;
+    background-color: orange;
+    padding:0px;
+  }
+  nav ul li{
+    list-style-type: none;
+    float:left;
+  }
+  nav ul li a{
+      font-family:20px/22px UTMCafetaRegular;
+      font-size:14px;
+      text-decoration:none;
+      display:block;
+      height:40px; 
+      line-height:40px; 
+      color:#FFF;
+      margin-left:3px;
+      margin-right:90px;
+      padding:0px 15px 0px 15px;
+  }
+  /* icon */
+.fa-solid {
+    margin-right:10px;
+}
+.fa-brands{
+    margin-right:10px;
+}
+header{
+    width: 80%;
+}
+header #MENU-LEFT .title-social a{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header #MENU-LEFT{
+    float: left;
+    width:30%;
+}
+header #MENU-LEFT {
+    float: left;
+    width:22%;
+    height: 600px;
+}
+header #MENU-LEFT h1 {
+    width:250px;
+    margin-left: 50px;
+    
+}
+header #MENU-LEFT .header-content{
+    width:1500px;
+}
+header #MENU-LEFT .header-content a{
+    text-decoration: none;
+}
+header #BANNER-RIGHT{
+    float:right;
+    width:78%;
+}
+header #BANNER-RIGHT .carousel-inner img{
+    height:560px;
+}
+/* kết thúc header */
+/* mở product-detail và footer */
+
+
+.product{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.product-detail{
+  
+}
+.product-img{
+    float:left;
+}
+/* hình sản phẩm lớn */
+.product-img img{
+    width:400px;
+    height:400px;
+}
+.product-option{
+    width:78%;
+    float:right;
+}
+.product-option .sale10{
+width:76%;
+height:40px;
+line-height: 40px;
+padding: 0px ;
+background-color:orange;
+}
+.product-option .sale10 h3{
+    color:white;
+    margin-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product-option .star{
+    float:left;
+    
+}
+.product-option .salee{
+    color:red;
+    float:left;  
+    margin-top: -10px;
+    margin-left: 30px;
+  
+}
+.product-option .salee a{
+    
+}
+.product-option .price{
+    color:red;
+}
+.product-option .color-price button{
+    margin-left: 15px;
+    height:40px;
+    width: 70px;
+    border-radius: 17px;
+    background-color:#CCC;
+    border:1px solid rgb(81, 77, 77);
+}
+.product .info-product hr{
+    margin-top:-35px;
+}
+.product-option .size .csw-btn-button {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px 35px;
+    margin-left: 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    background: #89656d;
+    border: 1px solid #a78aa3;
+    transition: 0.4s;
+  }
+  .product-option .size .csw-btn-button:hover {
+    background: #292929;
+  }
+  .product-option .size a{
+    text-decoration: none;
+  }
+.product-option .addtocart{
+    float:left;
+    width:40%;
+    ;
+}
+.product-option .addtocart button{
+    background-color:#FF6600;
+    color:white;
+    width:200px;
+    height:50px;
+    border:1px solid #FF6600;
+}
+.product-option .addtocart button a{
+    color:white;
+    text-decoration:none;
+}
+.product-option .paytocart{
+    float:right;
+    width:70%;
+    margin-right: 190px;
+    margin-top: -50px;
+}
+/* button */
+.product-option .color-price .csw-btn-button {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 30px;
+    margin-left: 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    background: #5b5a58;
+    border: 1px solid #5d513d;
+    transition: 0.4s;
+  }
+  .product-option .color-price .csw-btn-button:hover {
+    background: #292929;
+  }
+  .product-option .color-price a{
+    text-decoration: none;
+  }
+  /* ket thuc button */
+
+.product-option .paytocart button{
+    background-color:red;
+    width:200px;
+    height:50px;
+    color:white;
+    border:1px solid red;
+}
+.product-option .paytocart button a{
+    color:white;
+    text-decoration:none;
+}
+.product-img .img8 img {
+   width:100px;
+   height:100px;
+   margin-left:10px;
+   border:1px solid red;
+}
+.sp-giam h1{
+    margin-top:600px;
+    color:orangered;
+}
+.sp-giam hr{
+    margin-top:-35px;
+}
+.sp-giam .sp-sale img{
+    width:200px;
+    height:200px;
+}
+.sp-giam .sp-sale {
+   margin-left: 100px;
+}
+.sp-giam .sp-sale{
+    display: flex;
+}
+.sp-giam .sp-sale .sp1{
+    border: 1px solid #CCC;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sp-giam .sp-sale .sp1 h4{
+    color:red;
+}
+.sp-giam .sp-sale .sp2{
+    border: 1px solid #CCC;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sp-giam .sp-sale .sp2 h4{
+    color:red;
+}
+.sp-giam .sp-sale .sp3{
+    border: 1px solid #CCC;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sp-giam .sp-sale .sp3 h4{
+    color:red;
+}
+.sp-giam .sp-sale .sp4{
+    border: 1px solid #CCC;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sp-giam .sp-sale .sp4 h4{
+    color:red;
+}
+.sp-giam .sp-sale .sp5{
+    border: 1px solid #CCC;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sp-giam .sp-sale .sp5 h4{
+    color:red;
+}
+footer{
+    background-color:orange;
+    position: relative;
+    height: auto;
+    width: 1550px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer .container .lienhe{
+    margin-left: 100px;
+}
+footer .container .gui-mail{
+    margin-left: 100px; 
+}
+footer .container .trang{
+    margin-left: 100px;
+}
+footer .container .thong-tin{
+    margin-left: 100px;
+}
+
+
