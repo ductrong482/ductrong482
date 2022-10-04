@@ -3,9 +3,20 @@ body{
     background-color: white;
     margin: 0% auto;
     padding: 0%;
-    width:1900px;
+    width:1550px;
+    border:1px solid #CCC;
 }
 /* menu  */
+.menu{
+    width:100%;
+    background-image: url(images/banner/vecteezy_orange);
+    height: 100px;
+    background-size: cover;
+    margin-top:-50px;
+}
+.menu a{
+    margin-top:50px;
+}
 .menu nav ul{
     /* margin: 0px auto; */
     padding: 0;
@@ -38,20 +49,18 @@ body{
     margin-right:10px;
 }
 header{
-    width: 80%;
+    width: 100%;
 }
 header #MENU-LEFT .title-social a{
     font-size: 30px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-header #MENU-LEFT{
-    float: left;
-    width:30%;
-}
+
 header #MENU-LEFT {
     float: left;
-    width:22%;
+    width:21%;
     height: 600px;
+    
 }
 header #MENU-LEFT h1 {
     width:250px;
@@ -65,25 +74,28 @@ header #MENU-LEFT .header-content a{
     text-decoration: none;
 }
 header #BANNER-RIGHT{
-    float:right;
-    width:78%;
+     float:left; 
+    width:76%;
+    margin-right:10px;
 }
 header #BANNER-RIGHT .carousel-inner img{
-    height:560px;
 }
 /* kết thúc header */
 /* mở product-detail và footer */
 
 
 .product{
-    margin-top: 30px;
-    margin-left: 25px;
+    margin-top: 0px;
+    margin-left: 35px;
+    width: 100%;
+    height:690px;
 }
 .product-detail{
   
 }
 .product-img{
     float:left;
+    width:30%;
 }
 /* hình sản phẩm lớn */
 .product-img img{
@@ -91,15 +103,15 @@ header #BANNER-RIGHT .carousel-inner img{
     height:400px;
 }
 .product-option{
-    width:78%;
+    width:70%;
     float:right;
 }
 .product-option .sale10{
-width:76%;
-height:40px;
-line-height: 40px;
+width:100%;
+height:45px;
+line-height: 45px;
 padding: 0px ;
-background-color:orange;
+background-color:rgb(234, 89, 40);
 }
 .product-option .sale10 h3{
     color:white;
@@ -154,7 +166,6 @@ background-color:orange;
 .product-option .addtocart{
     float:left;
     width:40%;
-    ;
 }
 .product-option .addtocart button{
     background-color:#FF6600;
@@ -170,7 +181,7 @@ background-color:orange;
 .product-option .paytocart{
     float:right;
     width:70%;
-    margin-right: 190px;
+    margin-right: 90px;
     margin-top: -50px;
 }
 /* button */
@@ -210,9 +221,19 @@ background-color:orange;
    margin-left:10px;
    border:1px solid red;
 }
+.product-img .img8 ul {
+    list-style: none;
+    display:flex;
+}
+.sp-giam{
+    width: 100%;
+    margin-top: -550px;
+    height:500px;
+}
 .sp-giam h1{
     margin-top:600px;
     color:orangered;
+    margin-left: 35px;
 }
 .sp-giam hr{
     margin-top:-35px;
@@ -231,6 +252,7 @@ background-color:orange;
     border: 1px solid #CCC;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 90px;
 }
 .sp-giam .sp-sale .sp1 h4{
     color:red;
@@ -239,6 +261,7 @@ background-color:orange;
     border: 1px solid #CCC;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 90px;
 }
 .sp-giam .sp-sale .sp2 h4{
     color:red;
@@ -247,6 +270,7 @@ background-color:orange;
     border: 1px solid #CCC;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 90px;
 }
 .sp-giam .sp-sale .sp3 h4{
     color:red;
@@ -255,6 +279,7 @@ background-color:orange;
     border: 1px solid #CCC;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 90px;
 }
 .sp-giam .sp-sale .sp4 h4{
     color:red;
@@ -263,12 +288,12 @@ background-color:orange;
     border: 1px solid #CCC;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 90px;
 }
 .sp-giam .sp-sale .sp5 h4{
     color:red;
 }
 footer{
-    background-color:orange;
     position: relative;
     height: auto;
     width: 1550px;
@@ -295,5 +320,3 @@ footer .container .trang{
 footer .container .thong-tin{
     margin-left: 100px;
 }
-
-
