@@ -1,0 +1,1148 @@
+body{
+    background-color: white;
+    margin: 0% auto;
+    padding: 0%;
+    max-width:1550px;
+    border:1px solid #CCC;
+    overflow-x: hidden;
+    
+}
+/* Menu trên */
+.menu{
+    width:100%;
+    /* margin-top: -26px; */
+    /* background-image: url(images/banner/vecteezy_orange); */
+    height: 50px;
+    background-size: cover;
+    display: flex;
+    z-index: 1;
+    /* margin-top:0px; */
+    margin-bottom:4px;
+}
+.menu a{
+    /* margin-top:0px; */
+}
+
+.menu nav ul{
+    /* margin: 0px auto; */
+    width: 1550px;
+    height: 0px;
+    background-color: orange;
+    padding:0px;
+    /* display: none; */
+  }
+  nav ul li{
+    list-style-type: none;
+    float:left;
+  }
+  nav ul li a{
+      font-family:20px/22px UTMCafetaRegular;
+      font-size:14px;
+      text-decoration:none;
+      display:block;
+      height:40px; 
+      line-height:40px; 
+      color:#FFF;
+      margin-left:3px;
+      margin-right:90px;
+      padding:0px 15px 0px 15px;
+  }
+  /* icon */
+.fa-solid {
+    margin-right:10px;
+}
+.fa-brands{
+    margin-right:10px;
+}
+/* kết thúc menu trên */
+.dichvu-of-shop{
+    width:100%;
+    height:60px;
+    color:white;
+    /* background-color:rgba(255, 133, 3, 0.678); */
+    background-color:rgba(255, 140, 0, 0.973);
+    border: 1px solid #ccc;
+    text-align:center;
+    margin-bottom: 70px;
+    box-shadow: 0 0 10px rgb(95, 95, 95);
+}
+.dichvu-of-shop .dv a{
+    line-height: 60px;
+    font-size:30px;
+    font-weight:900;
+}
+.dichvu-of-shop .fa-solid {
+    color:white;
+}
+.dichvu .container ul{
+    display:flex;
+    text-align: center;
+}
+.dichvu .container .up{
+    margin-bottom: 50px;
+}
+.dichvu .container ul li {
+    list-style-type: none; margin:0 auto;
+}
+/* dịch vụ 1 */
+.dichvu .container ul li .sp1{
+    width:300px;
+    height:350px;
+    border: 1px solid #CCC;
+}
+.dichvu .container ul li .sp1 img{
+    width:280px;
+    height:185px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.dichvu .container ul li .sp1 .name a{
+    font-size:18px;
+    font-weight: 600;
+}
+.dichvu .container ul li .sp1 .chitiet a{
+    font-size:15px;
+}
+.dichvu .container ul li .sp1 .chitiet{
+    margin-bottom: 15px;
+}
+/* kết thúc dịch vụ 1 */
+.dichvu .container ul li .butt{
+    width:220px;
+    height:40px;
+    background-color:#FE9800;
+    border: 0px;
+    color:white;
+}
+/* dịch vụ 2 */
+.dichvu .container ul li .sp2{
+    width:300px;
+    height:350px;
+    border: 1px solid #CCC;
+}
+.dichvu .container ul li .sp2 img{
+    width:280px;
+    height:185px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.dichvu .container ul li .sp2 .name a{
+    font-size:18px;
+    font-weight: 600;
+}
+.dichvu .container ul li .sp2 .chitiet a{
+    font-size:15px;
+}
+.dichvu .container ul li .sp2 .chitiet{
+    margin-bottom: 15px;
+}
+/* kết thúc dịch vụ 2 */
+
+/* dich vụ 3 */
+.dichvu .container ul li .sp3{
+    width:300px;
+    height:350px;
+    border: 1px solid #CCC;
+}
+.dichvu .container ul li .sp3 img{
+    width:280px;
+    height:185px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.dichvu .container ul li .sp3 .name a{
+    font-size:18px;
+    font-weight: 600;
+}
+.dichvu .container ul li .sp3 .chitiet a{
+    font-size:15px;
+}
+.dichvu .container ul li .sp3 .chitiet{
+    margin-bottom: 15px;
+}
+/* kết thúc dịch vụ 3 */
+/* dịch vụ 4 */
+.dichvu .container ul li .sp4{
+    width:300px;
+    height:350px;
+    border: 1px solid #CCC;
+}
+.dichvu .container ul li .sp4 img{
+    width:280px;
+    height:185px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.dichvu .container ul li .sp4 .name a{
+    font-size:18px;
+    font-weight: 600;
+}
+.dichvu .container ul li .sp4 .chitiet a{
+    font-size:15px;
+}
+.dichvu .container ul li .sp4 .chitiet{
+    margin-bottom: 15px;
+}
+/* kt dich vu 4 */
+/* dich vụ 5 */
+.dichvu .container ul li .sp5{
+    width:300px;
+    height:350px;
+    border: 1px solid #CCC;
+}
+.dichvu .container ul li .sp5 img{
+    width:280px;
+    height:185px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.dichvu .container ul li .sp5 .name a{
+    font-size:18px;
+    font-weight: 600;
+}
+.dichvu .container ul li .sp5 .chitiet a{
+    font-size:15px;
+}
+.dichvu .container ul li .sp5 .chitiet{
+    margin-bottom: 15px;
+}
+/* kt dich vu 5 */
+/* dich vu 6 */
+.dichvu .container ul li .sp6{
+    width:300px;
+    height:350px;
+    border: 1px solid #CCC;
+}
+.dichvu .container ul li .sp6 img{
+    width:280px;
+    height:185px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.dichvu .container ul li .sp6 .name a{
+    font-size:18px;
+    font-weight: 600;
+}
+.dichvu .container ul li .sp6 .chitiet a{
+    font-size:15px;
+}
+.dichvu .container ul li .sp6 .chitiet{
+    margin-bottom: 15px;
+}
+/* ket thuc dich vu 6 */
+.fg{
+    margin-top: 200px;
+    width: 100%;
+    height: 20px;
+    background-color: #D9D9D9;
+}
+/* footer */
+footer {
+    width: 100%;
+    height:450px;
+    background-color:#F0F0F0;
+}
+footer .container{
+    width: 100%;
+    height: 340px;
+    margin-bottom: -140px;
+}
+footer .container .left{
+    float: left;
+    width: 0%;
+    margin-top: -100px;
+    background-color:#CCC;
+    
+}
+footer .container .right{
+    float:right;
+    width: 60%;
+    
+}
+footer .container ul{
+    display: flex;
+    list-style: none;
+}
+footer .container ul li img {
+    width:200px;
+    height:100px;
+}
+footer .container .logo{
+    width:550px;
+    height:250px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+footer .container .fpoly1{
+    width:350px;
+    margin-left: -580px;
+    margin-top:270px;
+}
+footer .container .fpoly1 a{
+    font-size:50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: #fe6a00;
+}
+footer .fg2{
+    background-color:#FE9800;
+    width: 100%;
+    height:20px;
+    margin-top: 230px;
+}
+footer .container .by {
+    width:520px;
+    margin-top: 65px;
+    margin-left: -60px;
+    font-size:20px;
+}
+footer .container .right .guimail{
+    background-color:#F9C56A;
+    width:220px;
+    height:280px;
+    margin-top: 100px;
+    border-radius:20px;
+    box-shadow: 10px -10px  #f1a350;
+}
+footer .container .right{
+    margin-top:20px;
+}
+/* CONTACT */
+footer .container .right .contact{
+    background-color:#F9C56A;
+    width:200px;
+    height:280px;
+    border-radius:20px;
+    margin-top: 100px;
+    margin-right: 25px;
+    box-shadow: 10px -10px  #f1a350;
+}
+footer .container .right .contact .ab   {
+    text-align: center;
+    font-weight: 900;
+}
+
+footer .container .right .contact ul li{
+    margin-left: -15px;
+}
+/* HẾT CONTACT */
+/* footer trang */
+footer .container .right .pages ul{
+    flex-direction: column;
+}
+footer .container .right .pages ul li a {
+    color:black;
+    text-decoration: none;
+}
+footer .container .right .pages .abc   {
+    text-align: center;
+    font-weight: 900;
+}
+footer .container .right .pages{
+    background-color:#F9C56A;
+    width:200px;
+    height:280px;
+    margin-top: 100px;
+    border-radius:20px;
+    margin-right: 25px;
+    box-shadow: 10px -10px  #f1a350;
+}
+/* hết footer trang */
+
+/* GỬI MAIL */
+footer .container .right .guimail .abcd   {
+    text-align: center;
+    font-weight: 900;
+}
+footer .container .right .guimail button{
+    width:50px;
+    height:29px;
+    line-height: 5px;
+    margin-right: 5px;
+    margin-left:10px;
+    border: 1px solid #CCC;
+}
+footer .container .right .guimail input{
+    width:140px;
+    height:30px;
+    margin-right: -15px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+}
+/* HẾT GỬI MAIL */
+
+footer .container .right .khung{
+    width:750px;
+    height:50px;
+    margin-top: -50px;
+    border-radius: 50px;
+    margin-right: -25px;
+    background-color: black;
+}
+footer .container .left .tt{
+    margin-left: -110px;
+}
+footer .container .left .tt img{
+    margin-right:20px;
+}
+footer .container .right .guimail button {
+    width:50px;
+    border-radius: 9px;
+    font-size: 11px;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: orange;
+ }
+/* kết thúc footer */
+
+
+/* responsive navbar */
+.nav__bars-btn{
+    width:28px;
+    height:28px;
+    margin-top: -50px;
+    margin-bottom: 22px;
+    margin-left: 10px;
+    color:#FFF;
+    display:none;
+}
+.nav__overlay  {
+    position: fixed;
+    top:0;
+    right:0; 
+    bottom:0;
+    left:0;
+    background-color: rgb(0,0,0,0.3);
+    display:none;
+    animation: fadeIn linear 0.4s;
+}
+.nav__mobile{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    width: 245px;
+    height:500px;
+    z-index: 3;
+    max-width:100%;
+    background-color: rgb(239, 141, 43);
+    transform: translateX(-100%);
+    opacity: 100;
+/* độ mờ và animation */
+    transition:transform linear 0.4s, opacity linear 0.4s;
+}
+.nav__mobile a{
+    margin-left: -20px;
+}
+.nav__mobile a:hover{
+    background-color:rgb(198, 190, 190);
+}
+.nav__mobile .nav__mobile-list .nav__mobile-link {
+    color:white;
+}
+.nav__mobile .nav__mobile-list .nav__mobile-link a:hover {
+    background-color:#F9C56A;
+}
+.nav__mobile-list{
+    margin-top: 24px;
+  
+}
+.nav__mobile-link{
+    text-decoration:none;
+    color:#333;
+    display:block;
+    padding:8px 0;
+    font-size:1.4rem;
+}
+.nav__mobile-close{
+    width:35px;
+    background-color: #CCC;
+    height:31px;
+    color:#666;
+    position:absolute;
+    top:10px;
+    right: 20px;
+    border-radius: 25px;
+}
+.nav__mobile-close  svg{
+    margin-top:-2px;
+}
+
+.nav__input:checked ~ .nav__overlay{
+    display:block;
+}
+.nav__input{
+    display:none;
+}
+.nav__input:checked ~ .nav__mobile{
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+/* 1023px */
+@media only screen and (max-width:1024px){
+    .nav__bars-btn{
+        display:block;
+    }
+    .menu nav{
+        display:none;
+    }  
+}
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+
+
+
+/* responsive mobile */
+@media only screen and (max-width:375px){
+    html{
+        overflow-x: hidden;
+    }
+    .dichvu-of-shop{
+    width:100%;
+  }
+  .dichvu-of-shop .dv a{
+    font-size:20px;
+  }
+  .dichvu .container ul{
+    flex-direction:column;
+  }
+  .dichvu .container{
+    margin-right: 1000px;
+  }
+  .dichvu .container .sp1{
+    margin-bottom:20px;
+    margin-left:-41px;
+  }
+  .dichvu .container .sp2{
+    margin-bottom:20px;
+    margin-left:-41px;
+  }
+  .dichvu .container .sp3{
+    margin-left:-41px;
+  }
+  .dichvu .container .sp4{
+    margin-bottom:20px;
+    margin-left:-41px;
+  }
+  .dichvu .container .sp5{
+    margin-bottom:20px;
+    margin-left:-41px;
+  }
+  .dichvu .container .sp6{
+  margin-bottom: -150px;
+  margin-left:-41px;
+    }
+    footer{
+        margin-bottom: -900px;
+        height:1360px;
+    }
+    footer .container .left .logo{
+       width:500px;
+       margin-top: 50px;
+       margin-left: 20px;
+    }
+    footer .container .left .logo img{
+    }
+    footer .container .left .fpoly1{
+        margin-top: 310px;
+    }
+    footer .container .left .fpoly1 a{
+        font-size:40px;
+        margin-left:40px;
+    }
+    footer .container .right ul{
+        flex-direction: column;
+    }
+    footer .container .right{
+        margin-top: 10px;
+        margin-right: 120px;
+    }
+    footer .container .khung{
+        display:none;
+    }
+    footer .fg2{
+        margin-top:1150px;
+    }
+    footer .container .right .pages{
+        width:220px;
+        margin-bottom: -80px;
+    }
+    footer .container .right .contact{
+        width:220px;
+        margin-top: 300px;
+        margin-bottom: -80px;
+    }
+    footer .container .left .by{
+        margin-top:880px;
+        margin-left: 20px;
+    }
+    footer .container .right .guimail{
+        margin-bottom:100px;
+    }    
+    footer .container .left .by a {
+        font-weight: 500;
+        margin-left: -10px;
+        font-size: 13px;
+    }
+    footer .container .left .tt{
+        margin-bottom:-840px;
+        margin-top: 970px;
+        z-index: 1;
+        margin-left: -135px;
+    }
+     footer .container .right .guimail button {
+       width:50px;
+       border-radius: 9px;
+       font-size: 11px;
+       font-weight: 400;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       background-color: orange;
+    }
+    /* navbar menu */
+}
+
+
+@media only screen and (max-width:414px) and (min-width:375px) {
+    html{
+        overflow-x: hidden;
+    }
+    .dichvu-of-shop{
+    width:100%;
+  }
+  .dichvu-of-shop .dv a{
+    font-size:20px;
+  }
+  .dichvu .container ul{
+    flex-direction:column;
+  }
+  .dichvu .container{
+    margin-left: -17px;
+  }
+  .dichvu .container .sp1{
+    margin-bottom:20px;
+  }
+  .dichvu .container .sp2{
+    margin-bottom:20px;
+  }
+  .dichvu .container .sp3{
+  
+  }
+  .dichvu .container .sp4{
+    margin-bottom:20px;
+  }
+  .dichvu .container .sp5{
+    margin-bottom:20px;
+  }
+  .dichvu .container .sp6{
+  margin-bottom: -150px;
+    }
+    footer{
+        margin-bottom: -900px;
+        height:1360px;
+    }
+    footer .container .left .logo{
+       width:500px;
+       margin-top: 50px;
+       margin-left: 40px;
+    }
+    footer .container .left .logo img{
+        margin-left: 100px;
+    }
+    footer .container .left .fpoly1{
+        margin-left:-496px;
+        margin-top:300px;
+    }
+    footer .container .left .fpoly1 a{
+        font-size:40px;
+        margin-left:-30px;
+    }
+    footer .container .right ul{
+        flex-direction: column;
+    }
+    footer .container .right{
+        margin-right:110px;
+    }
+    footer .container .khung{
+        display:none;
+    }
+    footer .fg2{
+        margin-top:1150px;
+    }
+    footer .container .right .pages{
+        width:220px;
+        margin-bottom: -80px;
+    }
+    footer .container .right .contact{
+        width:220px;
+        margin-top: 300px;
+        margin-bottom: -80px;
+    }
+    footer .container .left .by{
+        margin-top:990px;
+        font-size: 15px;
+        margin-left:20px;
+    }
+    footer .container .left .by a {
+        font-weight: 500;
+    }
+    footer .container .right .guimail{
+        margin-bottom:100px;
+    }  
+    footer .container .left .tt{
+        margin-left:-110px;
+        margin-bottom:-950px;
+        margin-top: 970px;
+        z-index: 1;
+    }  
+    footer .container .right .guimail button {
+        width:50px;
+        border-radius: 9px;
+        font-size: 11px;
+        font-weight: 400;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: orange;
+     }
+}
+
+
+
+      /* 600px < 414px */
+@media only screen and (max-width:600px)and (min-width:414px) {
+    html{
+        overflow-x: hidden;
+    }
+
+    .dichvu-of-shop{
+    width:100%;
+  }
+  .dichvu-of-shop .dv a{
+    font-size:20px;
+  }
+  .dichvu .container ul{
+    flex-direction:column;
+  }
+  .dichvu .container{
+    margin-left: -17px;
+  }
+  .dichvu .container .sp1{
+    margin-bottom:20px;
+  }
+  .dichvu .container .sp2{
+    margin-bottom:20px;
+  }
+  .dichvu .container .sp3{
+  
+  }
+  .dichvu .container .sp4{
+    margin-bottom:20px;
+  }
+  .dichvu .container .sp5{
+    margin-bottom:20px;
+  }
+  .dichvu .container .sp6{
+  margin-bottom: -150px;
+    }
+    footer{
+        margin-bottom: -900px;
+        height:1360px;
+    }
+    footer .container .left .logo{
+       width:500px;
+       margin-top: 50px;
+       margin-left: 70px;
+    }
+    footer .container .left .fpoly1{
+        margin-left:-540px;
+        margin-top:300px;
+    }
+    footer .container .left .fpoly1 a{
+        font-size:40px;
+    }
+    footer .container .right ul{
+        flex-direction: column;
+    }
+    footer .container .right{
+        margin-right:110px;
+    }
+    footer .container .khung{
+        display:none;
+    }
+    footer .fg2{
+        margin-top:1150px;
+    }
+    footer .container .right .pages{
+        width:220px;
+        margin-bottom: -80px;
+    }
+    footer .container .right .contact{
+        width:220px;
+        margin-top: 300px;
+        margin-bottom: -80px;
+    }
+    footer .container .left .by{
+        margin-top:990px;
+        font-size: 15px;
+        margin-left:20px;
+    }
+    footer .container .left .by a {
+        font-weight: 500;
+    }
+    footer .container .right .guimail{
+        margin-bottom:100px;
+    }  
+    footer .container .left .tt{
+        margin-left:-95px;
+        margin-bottom:-950px;
+        margin-top: 970px;
+    }   
+    footer .container .right .guimail button {
+        width:50px;
+        border-radius: 9px;
+        font-size: 11px;
+        font-weight: 400;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: orange;
+     }
+}
+        /* 767px < 600px */
+@media only screen and (min-width:600px) and (max-width:767px){
+    .dichvu .container ul{
+        flex-direction: column;
+       }
+    html{
+        overflow-x: hidden;
+    }  
+    footer{
+        margin-bottom: -900px;
+        height:700px;
+    }
+    footer .container .left .logo{
+       width:500px;
+       margin-top: 50px;
+       margin-left: 10px;
+    }
+    footer .container .left .fpoly1{
+        margin-left:-330px;
+        margin-top:200px;
+    }
+    footer .container .left .fpoly1 a{
+        font-size:40px;
+    }
+    footer .container .right ul{
+        flex-direction: row;
+    }
+    footer .container .right{
+        margin-right:250px;
+    }
+    footer .container .khung{
+        display:none;
+    }
+    footer .fg2{
+        margin-top:490px;
+    }
+    footer .container .right .pages{
+        width:165px;
+        margin-top: 250px;
+        margin-right: 20px;
+        font-weight: 600;
+    }
+    footer .container .right .contact{
+        width:165px;
+        margin-top: 250px;
+        margin-bottom: -80px;
+        font-size:15px;
+        font-weight: 600;
+        margin-right: 20px;
+        margin-left: -5px;
+    }
+    footer .container .left .by{
+        margin-top:400px;
+        font-size: 15px;
+        margin-left:120px;
+    }
+    footer .container .left .by a {
+        font-weight: 500;
+    }
+    footer .container .right .guimail{
+        margin-top:250px;
+        width:165px;
+    }   
+    footer .container .right .guimail .abcd{
+        flex-direction: column-reverse;
+    }
+    footer .container .right .guimail input {
+        width:95px;
+  
+    }
+    footer .container .right .guimail button {
+       width:40px;
+       border-radius: 9px;
+       font-size: 11px;
+       font-weight: 400;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       background-color: orange;
+    }
+    footer .container .right .guimail input {
+        font-size:12px;
+        height:30px;
+        border-radius: 7px;
+    }
+    .container .left img{
+        margin-top:-1140px;
+        margin-left: 100px;  
+    }
+    .container .left .tt{
+      
+     display:none;
+    }
+}
+/* responsive tablet width >=768px and width <1023px */
+@media only screen and (min-width:768px) and (max-width:991px){
+   .dichvu .container ul{
+    flex-direction: row;
+   }
+html{
+    overflow-x: hidden;
+}   
+
+    .dichvu .container .up .sp1 {
+        width:250px;
+        margin-right:100px;
+        margin-left: -11px;
+    }
+    .dichvu .container .up .sp1 img{
+        width:98%;
+        margin-top: 5px;
+    }
+    .dichvu .container .up .sp2 {
+        width:250px;
+        margin-left:-70px;
+    }
+    .dichvu .container .up .sp2 img{
+        width:98%;
+        margin-top: 5px;
+    }
+    .dichvu .container .up .sp3 {
+        width:250px;
+        margin-left:-628px;
+        margin-top: 400px;
+    }
+    .dichvu .container .up .sp3 img{
+        width:98%;
+        margin-top: 5px;
+    }
+    .dichvu .container .down .sp4 {
+        width:250px;
+        margin-left:326px;
+        margin-top: -400px;
+    }
+    .dichvu .container .down .sp4 img{
+        width:98%;
+        margin-top: 5px;
+    }
+    .dichvu .container .down .sp5 {
+        width:250px;
+        margin-left:-609px;
+        margin-top: 0px;
+    }
+    .dichvu .container .down .sp5 img{
+        width:98%;
+        margin-top: 0px;
+    }
+    .dichvu .container .down .sp6 {
+        width:250px;
+        margin-left:-310px;
+        margin-top: 0px;
+    }
+    .dichvu .container .down .sp6 img{
+        width:98%;
+        margin-top: 5px;
+    }
+    footer{
+        margin-bottom: -900px;
+        height:700px;
+    }
+    footer .container .left .logo{
+       width:500px;
+       margin-top: 50px;
+       margin-left: 60px;
+    }
+    footer .container .left .fpoly1{
+        margin-left:-330px;
+        margin-top:200px;
+    }
+    footer .container .left .fpoly1 a{
+        font-size:40px;
+    }
+    footer .container .right ul{
+        flex-direction: row;
+    }
+    footer .container .right{
+        margin-right:250px;
+    }
+    footer .container .khung{
+        display:none;
+    }
+    footer .fg2{
+        margin-top:490px;
+    }
+    footer .container .right .pages{
+        width:200px;
+        margin-top: 250px;
+        margin-right: 40px;
+    }
+    footer .container .right .contact{
+        width:200px;
+        margin-top: 250px;
+        margin-bottom: -80px;
+        font-size:15px;
+        margin-right: 40px;
+        margin-left: -55px;
+    }
+    footer .container .left .by{
+        margin-top:00px;
+        font-size: 15px;
+        margin-left:200px;
+    }
+    footer .container .left .by a {
+        font-weight: 500;
+    }
+    footer .container .right .guimail{
+        margin-top:250px;
+        width:200px;
+    }   
+    footer .container .right .guimail .abcd{
+        flex-direction: column-reverse;
+    }
+    footer .container .right .guimail input {
+        width:125px;
+  
+    }
+    footer .container .right .guimail button {
+       width:50px;
+       border-radius: 9px;
+       font-size: 11px;
+       font-weight: 400;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       background-color: orange;
+    }
+    footer .container .right .guimail input {
+        font-size:12px;
+        height:30px;
+        border-radius: 7px;
+    }
+    .container .left .tt img{
+        margin-top:400px;
+        margin-left: 200px;
+        
+    }
+}
+   /* chỉnh thêm */
+/* ipad pro */
+@media only screen and (min-width:991px) and (max-width:1400px){
+    html{
+        overflow-x: hidden;
+    }
+    .dichvu .container .up{
+
+    }
+    footer{
+        margin-bottom: -900px;
+        height:400px;
+    }
+    footer .container .left .logo{
+       width:550px;
+       margin-top: 50px;
+       margin-left: -60px;
+    }
+    footer .container .left .fpoly1{
+        margin-left:-525px;
+        margin-top:289px;
+    }
+    footer .container .left .fpoly1 a{
+        font-size:30px;
+    }
+    footer .container .right ul{
+        flex-direction: row;
+    }
+    footer .container .right{
+        margin-right:90px;
+        margin-top:-200px;
+    }
+    footer .container .khung{
+        display:none;
+        margin-left:-60px;
+        margin-bottom:-900px;
+    }
+    footer .fg2{
+        margin-top:190px;
+    }
+    footer .container .right .pages{
+        width:190px;
+        margin-top: 250px;
+        margin-right: 20px;
+    }
+    footer .container .right .contact{
+        width:190px;
+        margin-top: 250px;
+        margin-bottom: -80px;
+        font-size:15px;
+        margin-right: 20px;
+        margin-left: -15px;
+    }
+    footer .container .left .by{
+        margin-top:0px;
+        font-size: 15px;
+        margin-left:-21px;
+    }
+    footer .container .left .by a {
+        font-weight: 500;
+        font-size: 14px;
+    }
+    footer .container .right .guimail{
+        margin-top:250px;
+        width:190px;
+    }   
+    footer .container .right .guimail .abcd{
+        flex-direction: column-reverse;
+    }
+    footer .container .right .guimail input {
+        width:125px;
+  
+    }
+    footer .container .right .guimail button {
+       width:40px;
+       border-radius: 9px;
+       font-size: 11px;
+       font-weight: 400;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       background-color: orange;
+    }
+    footer .container .right .guimail input {
+        font-size:12px;
+        height:30px;
+        border-radius: 7px;
+    }
+    .container .left .tt img{
+        margin-top: -20px;
+        margin-left: -60px;
+        margin-right: -100px;
+    }
+    .container .left .tt{
+    }
+}
+
+            /* 1022px < 992px   601< 767 */
+/* @media only screen and (min-width:991px) and (max-width:1023px){
+    .dichvu .container  {
+        display: none;
+    }
+} */
