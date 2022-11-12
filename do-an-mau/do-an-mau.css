@@ -1,0 +1,2619 @@
+body{
+    background-color: white;
+    margin: 0% auto;
+    padding: 0%;
+    max-width:1550px;
+    border:1px solid #CCC;
+    overflow-x: hidden;
+    
+}
+/* Menu trên */
+.menu{
+    width:100%;
+    /* margin-top: -26px; */
+    /* background-image: url(images/banner/vecteezy_orange); */
+    height: 50px;
+    background-size: cover;
+    display: flex;
+    z-index: 1;
+    /* margin-top:0px; */
+    margin-bottom:4px;
+}
+.menu a{
+    /* margin-top:0px; */
+}
+
+.menu nav ul{
+    /* margin: 0px auto; */
+    width: 1550px;
+    height: 0px;
+    background-color: orange;
+    padding:0px;
+    /* display: none; */
+  }
+  nav ul li{
+    list-style-type: none;
+    float:left;
+  }
+  nav ul li a{
+      font-family:20px/22px UTMCafetaRegular;
+      font-size:14px;
+      text-decoration:none;
+      display:block;
+      height:40px; 
+      line-height:40px; 
+      color:#FFF;
+      margin-left:3px;
+      margin-right:90px;
+      padding:0px 15px 0px 15px;
+  }
+  /* icon */
+.fa-solid {
+    margin-right:10px;
+}
+.fa-brands{
+    margin-right:10px;
+}
+/* kết thúc menu trên */
+.container-fluid{
+    height:auto;
+    text-align:center;
+}
+.container-fluid .page{
+    margin-right: 1100px;
+}
+.container-fluid .tong{
+    margin-right: 1100px;
+}
+.container-fluid .row .thong-tin-sp ul {
+    display: flex;
+    list-style: none;
+}
+.container-fluid .row .thong-tin-sp{
+    height:100px;
+    background-color:#CCC;
+    margin-bottom: -15px;
+    width:100%;
+    line-height:90px;
+}
+.container-fluid .row .thong-tin-sp .name-sp{
+    font-weight:400;
+    font-size: 15px;  
+}
+#BANNER-RIGHT .tendv a {
+    position:absolute;
+    left:45%;
+    font-weight: 700;
+    font-size:100px;
+    top:-500px;
+    transform: translate(-35%);
+    color:orangered;
+    background-color:rgb(241, 238, 238);
+}
+#BANNER-RIGHT .row .col .tendv a{
+}
+.container-fluid .row .thong-tin-sp .name-sp a{
+
+}
+.container-fluid .row .thong-tin-sp .sx{
+   margin-left: 700px;
+}
+.container-fluid .row .thong-tin-sp .sx a{
+   
+}
+.container-fluid .row .thong-tin-sp .sx .sxt{
+    text-decoration: none;
+    color:white;
+    margin-left: 30px;
+}
+.container-fluid .row .thong-tin-sp .sx .sxt:hover{
+    color:red;
+}
+.container-fluid .timsp #search{
+    margin-left:1000px;
+}
+.container-fluid .timsp #search input{
+    width:400px;
+    height:30px;
+}
+.container-fluid .timsp #search button{
+    height:30px;
+}
+
+
+.container-fluid .product .row .col .pro{
+    background-color:white;
+    border:1px solid orange;
+    margin-top: 10px;
+    width:275px;
+    height:250px;
+    padding:10px;
+    overflow:hidden;
+    margin-right: -1px;
+    margin-bottom: 20px; 
+}
+/* .container-fluid .product .row .col .pro-1{
+    border:1px solid orange;
+    width: 300px;
+    overflow: hidden;
+    
+}
+/* .container-fluid .product .row .col .pro-1 .hinh{
+} */
+/* .container-fluid .product .row .col .pro-1 .hinh img{
+    width: 100%;
+} */ */
+
+
+.container-fluid .row .col .pro .hinh{
+    padding:1px;
+    overflow: hidden;
+}
+
+.container-fluid .row .col .pro .hinh img{
+    transition-duration: 0.3s;
+    width: 100%;
+    height:130px;
+    border:0px;
+}
+.container-fluid .row .col .pro img:hover{
+    transform: scale(1.4);
+}
+.container-fluid .product ul{
+    display: flex;
+    list-style: none;
+}
+.container-fluid .product .row .col .pro ul{
+    flex-direction: column;
+    
+}
+.container-fluid .product .pt{
+    margin-top:50px;
+    margin-left: 950px;
+}
+.container-fluid .product .pt ul li a{
+    line-height: 15px;
+    margin-left:-80px;
+    color:white;
+    background-color:orange;
+}
+.container-fluid .product .pt ul li a:hover{
+    color:orangered;
+}
+
+.container-fluid .content ul{
+    display:flex;
+    text-align: left;
+}
+.container-fluid .content .dmsp{
+    width:280px;
+    margin-left:-35px ;
+    font-weight: bold;
+    background-color:white;
+    border:1px solid #CCC;
+}
+.container-fluid .content .dmsp a{
+    margin-left:-20px;
+}
+.container-fluid .content .dmsp .cpm {
+    text-align:right;
+    text-decoration: none;
+    color:orange;
+    font-size: 15px;
+    padding: 1px 5px 5px 5px;
+}
+.container-fluid .content .dmsp .cpm a{
+    padding: 10px 5px 5px 5px;
+}
+
+.container-fluid .content .dmsp ul{
+    flex-direction:column;
+}
+.container-fluid .content .dmsp .danhmuc{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.container-fluid .cheap{
+    width:100%;
+    background-color:#FE9800;
+    height:100px;
+    margin-top:200px;
+    margin-bottom: -50px;
+}
+.container-fluid  .cheap ul{
+    list-style: none;
+    display:flex;
+}
+.container-fluid  .cheap ul li {
+    font-weight:700;
+    color:white;
+    font-size:15px;
+    margin-left: 50px;
+    line-height:100px;
+}
+.container-fluid  .cheap ul li i{
+    font-size:40px;
+}
+.fg{
+    margin-top: 50px;
+    width: 100%;
+    height: 20px;
+    background-color: #D9D9D9;
+}
+/* footer */
+footer {
+    width: 100%;
+    height:450px;
+    background-color:#F0F0F0;
+}
+footer .container{
+    width: 100%;
+    height: 340px;
+    margin-bottom: -140px;
+}
+footer .container .left{
+    float: left;
+    width: 0%;
+    margin-top: -100px;
+    background-color:#CCC;
+    
+}
+footer .container .right{
+    float:right;
+    width: 60%;
+    
+}
+footer .container ul{
+    display: flex;
+    list-style: none;
+}
+footer .container ul li img {
+    width:200px;
+    height:100px;
+}
+footer .container .logo{
+    width:550px;
+    height:250px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+footer .container .fpoly1{
+    width:350px;
+    margin-left: -580px;
+    margin-top:270px;
+}
+footer .container .fpoly1 a{
+    font-size:50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: #fe6a00;
+}
+footer .fg2{
+    background-color:#FE9800;
+    width: 100%;
+    height:20px;
+    margin-top: 230px;
+}
+footer .container .by {
+    width:520px;
+    margin-top: 65px;
+    margin-left: -60px;
+    font-size:20px;
+}
+footer .container .right .guimail{
+    background-color:#F9C56A;
+    width:220px;
+    height:280px;
+    margin-top: 100px;
+    border-radius:20px;
+    box-shadow: 10px -10px  #f1a350;
+}
+footer .container .right{
+    margin-top:20px;
+}
+/* CONTACT */
+footer .container .right .contact{
+    background-color:#F9C56A;
+    width:200px;
+    height:280px;
+    border-radius:20px;
+    margin-top: 100px;
+    margin-right: 25px;
+    box-shadow: 10px -10px  #f1a350;
+}
+footer .container .right .contact .ab   {
+    text-align: center;
+    font-weight: 900;
+}
+
+footer .container .right .contact ul li{
+    margin-left: -15px;
+}
+/* HẾT CONTACT */
+/* footer trang */
+footer .container .right .pages ul{
+    flex-direction: column;
+}
+footer .container .right .pages ul li a {
+    color:black;
+    text-decoration: none;
+}
+footer .container .right .pages .abc   {
+    text-align: center;
+    font-weight: 900;
+}
+footer .container .right .pages{
+    background-color:#F9C56A;
+    width:200px;
+    height:280px;
+    margin-top: 100px;
+    border-radius:20px;
+    margin-right: 25px;
+    box-shadow: 10px -10px  #f1a350;
+}
+/* hết footer trang */
+
+/* GỬI MAIL */
+footer .container .right .guimail .abcd   {
+    text-align: center;
+    font-weight: 900;
+}
+footer .container .right .guimail button{
+    width:50px;
+    height:29px;
+    line-height: 5px;
+    margin-right: 5px;
+    margin-left:10px;
+    border: 1px solid #CCC;
+}
+footer .container .right .guimail input{
+    width:140px;
+    height:30px;
+    margin-right: -15px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+}
+/* HẾT GỬI MAIL */
+
+footer .container .right .khung{
+    width:750px;
+    height:50px;
+    margin-top: -50px;
+    border-radius: 50px;
+    margin-right: -25px;
+    background-color: black;
+}
+footer .container .left .tt{
+    margin-left: -110px;
+}
+footer .container .left .tt img{
+    margin-right:20px;
+}
+footer .container .right .guimail button {
+    width:50px;
+    border-radius: 9px;
+    font-size: 11px;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: orange;
+ }
+
+/* responsive navbar */
+.nav__bars-btn{
+    width:28px;
+    height:28px;
+    margin-top: -50px;
+    margin-bottom: 22px;
+    margin-left: 10px;
+    color:#FFF;
+    display:none;
+}
+.nav__overlay  {
+    position: fixed;
+    top:0;
+    right:0; 
+    bottom:0;
+    left:0;
+    background-color: rgb(0,0,0,0.3);
+    display:none;
+    animation: fadeIn linear 0.4s;
+}
+.nav__mobile{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    width: 245px;
+    height:500px;
+    z-index: 3;
+    max-width:100%;
+    background-color: rgb(239, 141, 43);
+    transform: translateX(-100%);
+    opacity: 100;
+/* độ mờ và animation */
+    transition:transform linear 0.4s, opacity linear 0.4s;
+}
+.nav__mobile a{
+    margin-left: -20px;
+}
+.nav__mobile a:hover{
+    background-color:rgb(198, 190, 190);
+}
+.nav__mobile .nav__mobile-list .nav__mobile-link {
+    color:white;
+}
+.nav__mobile .nav__mobile-list .nav__mobile-link a:hover {
+    background-color:#F9C56A;
+}
+.nav__mobile-list{
+    margin-top: 24px;
+  
+}
+.nav__mobile-link{
+    text-decoration:none;
+    color:#333;
+    display:block;
+    padding:8px 0;
+    font-size:1.4rem;
+}
+.nav__mobile-close{
+    width:35px;
+    background-color: #CCC;
+    height:31px;
+    color:#666;
+    position:absolute;
+    top:10px;
+    right: 20px;
+    border-radius: 25px;
+}
+.nav__mobile-close  svg{
+    margin-top:-2px;
+}
+
+.nav__input:checked ~ .nav__overlay{
+    display:block;
+}
+.nav__input{
+    display:none;
+}
+.nav__input:checked ~ .nav__mobile{
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+/* 1023px */
+@media only screen and (max-width:1320px){
+    .nav__bars-btn{
+        display:block;
+    }
+    .menu nav{
+        display:none;
+    }  
+}
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+.container-fluid .row .col .thong-tin-sp .name-sp .namepage {
+    font-weight:700;
+}
+.container-fluid .row .col-sm-5{
+    font-weight:600;
+    color:white;
+    line-height:80px;
+    font-size: 20px;
+    height:80px;
+    width:700px;
+    text-align: center;
+    border-bottom-right-radius:100px ;
+    background-color:#FF8A00;
+}
+.container-fluid .row .col .hinh  img{
+    border:15px solid rgba(211, 209, 209, 0.611);
+    width: 600px;
+    height:400px;
+}
+.container-fluid .row .col .thongtinsp{
+    width:796px;
+    height:550px;
+}
+.container-fluid ul{
+    list-style: none;
+}
+
+
+/* @media only screen and (max-width:361px){
+    html{
+        overflow-x: hidden;
+    }
+    .container-fluid .row .col-sm-5 a{
+        font-size:15px;
+    }
+    .container-fluid .row .tt .col-sm-5 {
+        width:250px;
+        height:50px;
+        line-height: 50px;
+    }
+    .container-fluid .flex .row .col .hinh img {
+        border:15px solid rgba(211, 209, 209, 0.611);
+        width: 270px;
+        height:200px;
+    }
+    .container-fluid .flex .row .col .thongtinsp {
+        font-size:20px;
+        line-height:30px;
+        margin-left: -30px;
+        width:300px;
+        margin-bottom: 100px;
+}
+.container-fluid .flex .row .col .thongtinsp .msp{ 
+}
+.container-fluid .ttctsp .row .col .ctsp {
+    text-align: center;
+    margin-top:-800px;
+}
+.container-fluid .ttctsp .row .col .ctsp a{
+    font-size:25px;
+    margin-left: -90px;
+}
+.container-fluid .ttctsp .row .col .ctsp2{
+    margin-top:-400px;
+    width: 265px;
+    
+}
+.container-fluid .ttctsp .row .col .ctsp2 a{
+    font-size:15px;
+    line-height:10px;
+}
+.container-fluid .hinhanhthamkhao .row .col .hatk{
+    margin-top:20px;
+}
+.container-fluid .hinhanhthamkhao .row .col .hatk a{
+    font-size:25px;
+}
+.container-fluid .hinhanhthamkhao2 .row .col .hatk1{
+    flex-direction: column;
+    margin-left: -25px;
+}
+.container-fluid .hinhanhthamkhao2 .row .col .hatk1 img{
+    width:300px;
+    height:300px;
+    margin-bottom: 20px;
+}
+.container-fluid .spcl2 .row ul  {
+    flex-direction: column;
+}
+.container-fluid .spcl2 .row .col .sv1  {
+    margin-bottom:10px;
+    margin-left:-10px;
+}
+.container-fluid .spcl2 .row .col .sv2  {
+    margin-bottom:10px;
+    margin-left:-10px;
+}
+.container-fluid .spcl2 .row .col .sv3  {
+    margin-bottom:10px;
+    margin-left:-10px;
+}
+.container-fluid .spcl2 .row .col .sv4  {
+    margin-bottom:10px;
+    margin-left:-10px;
+}
+    footer{
+        margin-bottom: -900px;
+        height:1360px;
+    }
+    footer .container .left .logo{
+       width:500px;
+       margin-top: 50px;
+       margin-left: 20px;
+    }
+    footer .container .left .logo img{
+    }
+    footer .container .left .fpoly1{
+        margin-top: 310px;
+    }
+    footer .container .left .fpoly1 a{
+        font-size:40px;
+        margin-left:40px;
+    }
+    footer .container .right ul{
+        flex-direction: column;
+    }
+    footer .container .right{
+        margin-top: 10px;
+        margin-right: 120px;
+    }
+    footer .container .khung{
+        display:none;
+    }
+    footer .fg2{
+        margin-top:1150px;
+    }
+    footer .container .right .pages{
+        width:220px;
+        margin-bottom: -80px;
+    }
+    footer .container .right .contact{
+        width:220px;
+        margin-top: 300px;
+        margin-bottom: -80px;
+    }
+    footer .container .left .by{
+        margin-top:880px;
+        margin-left: 20px;
+    }
+    footer .container .right .guimail{
+        margin-bottom:100px;
+    }    
+    footer .container .left .by a {
+        font-weight: 500;
+        margin-left: -10px;
+        font-size: 13px;
+    }
+    footer .container .left .tt{
+        margin-bottom:-840px;
+        margin-top: 970px;
+        z-index: 1;
+        margin-left: -135px;
+    }
+     footer .container .right .guimail button {
+       width:50px;
+       border-radius: 9px;
+       font-size: 11px;
+       font-weight: 400;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       background-color: orange;
+    }
+} */
+
+@media only screen and (max-width:285px){
+    html{
+        overflow-x:hidden;
+    }
+    .container-fluid .row .col .thong-tin-sp{
+        height: auto;
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp{
+        width:200px;
+        line-height:30px;
+        margin-bottom: 20px;
+    }
+    #BANNER-RIGHT .row .col .tendv a{
+    font-size:40px;
+    width:250px;
+    margin-left: -20px;
+    margin-top:360px;
+    }
+    .container-fluid .timsp{
+        margin-bottom:20px;
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp a{
+        margin-left: 0px;  
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp .namepage{
+        font-weight:600;
+    }
+    .container-fluid .row .col .thong-tin-sp .sx .sxt{
+        margin-left:-10px;
+    }
+    .container-fluid .row .col .thong-tin-sp ul{
+        flex-direction: column;
+    }
+    .container-fluid .row .col .thong-tin-sp a{
+        width:100px;
+        margin-left: -30px;
+    }
+    .container-fluid .row .col .thong-tin-sp .sx{
+        margin-left:-50px;
+        line-height:40px;
+    }
+    .container-fluid .page{
+        width:250px;
+        margin-bottom: 10px;
+    }
+    .container-fluid .timsp{
+        margin-left: -1000px;
+    }
+    .container-fluid .timsp #search input{
+     width:200px;
+    }
+    .container-fluid .timsp button{
+        width:50px;
+        margin-top: 10px;
+    }
+    .container-fluid .content ul{
+        /* flex-direction: column; */
+    }
+    .container-fluid .content .dmsp{
+        width:100px;
+    }
+    .container-fluid .content .dmsp .cpm {
+        font-size: 10px;
+    }
+    .container-fluid .content .product .row .col .pro{
+        width:150px;
+        margin-left: 70px;
+    }
+    .container-fluid .content .product .pt{
+        margin-left:100px;
+    }
+    .container-fluid .tong{
+        width:200px;
+        margin-left:-30px;
+    }
+    .container-fluid .product{
+        margin-left:-80px;
+    }
+    .container-fluid .product .pt{
+        margin-left:190px;
+    }
+    .banner-laptop .row .col img{
+        width:280px;
+        margin-left:-268px;
+    }
+    .container-fluid .product .row ul{
+        flex-direction: column;
+    }
+    footer{
+        margin-bottom: -900px;
+        height:1360px;
+    }
+    footer .container .left .logo{
+       width:500px;
+       margin-top: 50px;
+       margin-left: 20px;
+    }
+    footer .container .left .logo img{
+    }
+    footer .container .left .fpoly1{
+        margin-top: 310px;
+    }
+    footer .container .left .fpoly1 a{
+        font-size:40px;
+        margin-left:40px;
+    }
+    footer .container .right ul{
+        flex-direction: column;
+    }
+    footer .container .right{
+        margin-top: 10px;
+        margin-right: 120px;
+    }
+    footer .container .khung{
+        display:none;
+    }
+    footer .fg2{
+        margin-top:1150px;
+    }
+    footer .container .right .pages{
+        width:220px;
+        margin-bottom: -80px;
+    }
+    footer .container .right .contact{
+        width:220px;
+        margin-top: 300px;
+        margin-bottom: -80px;
+    }
+    footer .container .left .by{
+        margin-top:880px;
+        margin-left: 20px;
+    }
+    footer .container .right .guimail{
+        margin-bottom:100px;
+    }    
+    footer .container .left .by a {
+        font-weight: 500;
+        margin-left: -10px;
+        font-size: 13px;
+    }
+    footer .container .left .tt{
+        margin-bottom:-840px;
+        margin-top: 970px;
+        z-index: 1;
+        margin-left: -135px;
+    }
+     footer .container .right .guimail button {
+       width:50px;
+       border-radius: 9px;
+       font-size: 11px;
+       font-weight: 400;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       background-color: orange;
+    }
+}
+@media only screen and (max-width:360px)and (min-width:285px){
+    html{
+        overflow-x:hidden;
+    }
+    .container-fluid .row .col .thong-tin-sp{
+        height: auto;
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp{
+        width:200px;
+        line-height:30px;
+        margin-bottom: 20px;
+    }
+    #BANNER-RIGHT .row .col .tendv a{
+    font-size:40px;
+    width:250px;
+    margin-left: -20px;
+    margin-top:360px;
+    }
+    .container-fluid .timsp{
+        margin-bottom:20px;
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp a{
+        margin-left: 0px;  
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp .namepage{
+        font-weight:600;
+    }
+    .container-fluid .row .col .thong-tin-sp .sx .sxt{
+        margin-left:-30px;
+    }
+    .container-fluid .row .col .thong-tin-sp ul{
+        flex-direction: column;
+    }
+    .container-fluid .row .col .thong-tin-sp a{
+        width:100px;
+        margin-left: -30px;
+    }
+    .container-fluid .row .col .thong-tin-sp .sx{
+        margin-left:-50px;
+        line-height:40px;
+    }
+    .container-fluid .page{
+        width:250px;
+        margin-bottom: 10px;
+    }
+    .container-fluid .timsp{
+        margin-left: -1000px;
+    }
+    .container-fluid .timsp #search input{
+     width:200px;
+    }
+    .container-fluid .timsp button{
+        width:50px;
+    }
+    .container-fluid .content ul{
+        /* flex-direction: column; */
+    }
+    .container-fluid .content .dmsp{
+        width:100px;
+    }
+    .container-fluid .content .dmsp .cpm {
+        font-size: 10px;
+    }
+    .container-fluid .content .product .row .col .pro{
+        width:165px;
+        margin-left: 70px;
+    }
+    .container-fluid .content .product .pt{
+        margin-left:100px;
+    }
+    .container-fluid .tong{
+        width:200px;
+        margin-left:-30px;
+    }
+    .container-fluid .product{
+        margin-left:-80px;
+    }
+    .container-fluid .product .pt{
+        margin-left:190px;
+    }
+    .banner-laptop .row .col img{
+        width:280px;
+        margin-left:-268px;
+    }
+    .container-fluid .product .row ul{
+        flex-direction: column;
+    }
+    footer{
+        margin-bottom: -900px;
+        height:1360px;
+    }
+    footer .container .left .logo{
+       width:500px;
+       margin-top: 50px;
+       margin-left: 20px;
+    }
+    footer .container .left .logo img{
+    }
+    footer .container .left .fpoly1{
+        margin-top: 310px;
+    }
+    footer .container .left .fpoly1 a{
+        font-size:40px;
+        margin-left:40px;
+    }
+    footer .container .right ul{
+        flex-direction: column;
+    }
+    footer .container .right{
+        margin-top: 10px;
+        margin-right: 120px;
+    }
+    footer .container .khung{
+        display:none;
+    }
+    footer .fg2{
+        margin-top:1150px;
+    }
+    footer .container .right .pages{
+        width:220px;
+        margin-bottom: -80px;
+    }
+    footer .container .right .contact{
+        width:220px;
+        margin-top: 300px;
+        margin-bottom: -80px;
+    }
+    footer .container .left .by{
+        margin-top:880px;
+        margin-left: 20px;
+    }
+    footer .container .right .guimail{
+        margin-bottom:100px;
+    }    
+    footer .container .left .by a {
+        font-weight: 500;
+        margin-left: -10px;
+        font-size: 13px;
+    }
+    footer .container .left .tt{
+        margin-bottom:-840px;
+        margin-top: 970px;
+        z-index: 1;
+        margin-left: -135px;
+    }
+     footer .container .right .guimail button {
+       width:50px;
+       border-radius: 9px;
+       font-size: 11px;
+       font-weight: 400;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       background-color: orange;
+    }
+}
+/* responsive mobile */
+@media only screen and (max-width:376px)and (min-width:360px){
+    html{
+        overflow-x:hidden;
+    }
+    .container-fluid .row .col .thong-tin-sp{
+        height: auto;
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp{
+        width:280px;
+        line-height:30px;
+        margin-bottom: 20px;
+    }
+    #BANNER-RIGHT .row .col .tendv a{
+    font-size:40px;
+    width:250px;
+    margin-left: -10px;
+    margin-top:360px;
+    }
+    .container-fluid .timsp{
+        margin-bottom:20px;
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp a{
+        margin-left: 0px;  
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp .namepage{
+        font-weight:600;
+    }
+    .container-fluid .row .col .thong-tin-sp .sx .sxt{
+        margin-left:-30px;
+    }
+    .container-fluid .row .col .thong-tin-sp ul{
+        flex-direction: column;
+    }
+    .container-fluid .row .col .thong-tin-sp a{
+        width:100px;
+        margin-left: -30px;
+    }
+    .container-fluid .row .col .thong-tin-sp .sx{
+        margin-left:-50px;
+        line-height:40px;
+    }
+    .container-fluid .page{
+        width:250px;
+        margin-bottom: 10px;
+    }
+    .container-fluid .timsp{
+        margin-left: -1000px;
+    }
+    .container-fluid .timsp #search input{
+     width:250px;
+    }
+    .container-fluid .timsp button{
+        width:50px;
+    }
+    .container-fluid .content ul{
+        /* flex-direction: column; */
+    }
+    .container-fluid .content .dmsp{
+        width:120px;
+    }
+    .container-fluid .content .dmsp .cpm {
+        font-size: 13px;
+    }
+    .container-fluid .content .product .row .col .pro{
+        width:200px;
+        margin-left: 70px;
+    }
+    .container-fluid .content .product .pt{
+        margin-left:100px;
+    }
+    .container-fluid .tong{
+        width:200px;
+        margin-left:-30px;
+    }
+    .container-fluid .product{
+        margin-left:-80px;
+    }
+    .container-fluid .product .pt{
+        margin-left:190px;
+    }
+    .banner-laptop .row .col img{
+        width:280px;
+        margin-left:-268px;
+    }
+    .container-fluid .product .row ul{
+        flex-direction: column;
+    }
+    footer{
+        margin-bottom: -900px;
+        height:1360px;
+    }
+    footer .container .left .logo{
+       width:500px;
+       margin-top: 50px;
+       margin-left: 20px;
+    }
+    footer .container .left .logo img{
+    }
+    footer .container .left .fpoly1{
+        margin-top: 310px;
+    }
+    footer .container .left .fpoly1 a{
+        font-size:40px;
+        margin-left:40px;
+    }
+    footer .container .right ul{
+        flex-direction: column;
+    }
+    footer .container .right{
+        margin-top: 10px;
+        margin-right: 120px;
+    }
+    footer .container .khung{
+        display:none;
+    }
+    footer .fg2{
+        margin-top:1150px;
+    }
+    footer .container .right .pages{
+        width:220px;
+        margin-bottom: -80px;
+    }
+    footer .container .right .contact{
+        width:220px;
+        margin-top: 300px;
+        margin-bottom: -80px;
+    }
+    footer .container .left .by{
+        margin-top:880px;
+        margin-left: 20px;
+    }
+    footer .container .right .guimail{
+        margin-bottom:100px;
+    }    
+    footer .container .left .by a {
+        font-weight: 500;
+        margin-left: -10px;
+        font-size: 13px;
+    }
+    footer .container .left .tt{
+        margin-bottom:-840px;
+        margin-top: 970px;
+        z-index: 1;
+        margin-left: -135px;
+    }
+     footer .container .right .guimail button {
+       width:50px;
+       border-radius: 9px;
+       font-size: 11px;
+       font-weight: 400;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       background-color: orange;
+    }
+}
+@media only screen and (max-width:414px) and (min-width:376px) {
+    html{
+        overflow-x:hidden;
+    }
+    .container-fluid .row .col .thong-tin-sp{
+        height: auto;
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp{
+        width:300px;
+        line-height:30px;
+        margin-bottom: 20px;
+    }
+    #BANNER-RIGHT .row .col .tendv a{
+    font-size:40px;
+    width:250px;
+    text-align: center;
+    margin-left: -10px;
+    margin-top:360px;
+    }
+    .container-fluid .timsp{
+        margin-bottom:20px;
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp a{
+        margin-left: 0px;  
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp .namepage{
+        font-weight:600;
+    }
+    .container-fluid .row .col .thong-tin-sp .sx .sxt{
+        margin-left:-30px;
+    }
+    .container-fluid .row .col .thong-tin-sp ul{
+        flex-direction: column;
+    }
+    .container-fluid .row .col .thong-tin-sp a{
+        width:100px;
+        margin-left: -30px;
+    }
+    .container-fluid .row .col .thong-tin-sp .sx{
+        margin-left:-50px;
+        line-height:40px;
+    }
+    .container-fluid .page{
+        width:250px;
+        margin-bottom: 10px;
+    }
+    .container-fluid .timsp{
+        margin-left: -1000px;
+    }
+    .container-fluid .timsp #search input{
+     width:250px;
+    }
+    .container-fluid .timsp button{
+        width:50px;
+    }
+    .container-fluid .content ul{
+        /* flex-direction: column; */
+    }
+    .container-fluid .content .dmsp{
+        width:150px;
+    }
+    .container-fluid .content .dmsp .cpm {
+        font-size: 13px;
+    }
+    .container-fluid .content .product .row .col .pro{
+        width:200px;
+        margin-left: 70px;
+    }
+    .container-fluid .content .product .pt{
+        margin-left:100px;
+    }
+    .container-fluid .tong{
+        width:200px;
+        margin-left:-30px;
+    }
+    .container-fluid .product{
+        margin-left:-80px;
+    }
+    .container-fluid .product .pt{
+        margin-left:190px;
+    }
+    .banner-laptop .row .col img{
+        width:280px;
+        margin-left:-268px;
+    }
+    .container-fluid .product .row ul{
+        flex-direction: column;
+    }
+    footer{
+        margin-bottom: -900px;
+        height:1360px;
+    }
+    footer .container .left .logo{
+       width:500px;
+       margin-top: 50px;
+       margin-left: 50px;
+    }
+    footer .container .left .logo img{
+    }
+    footer .container .left .fpoly1{
+        margin-top: 310px;
+    }
+    footer .container .left .fpoly1 a{
+        font-size:40px;
+        margin-left:40px;
+    }
+    footer .container .right ul{
+        flex-direction: column;
+    }
+    footer .container .right{
+        margin-top: 10px;
+        margin-right: 120px;
+    }
+    footer .container .khung{
+        display:none;
+    }
+    footer .fg2{
+        margin-top:1150px;
+    }
+    footer .container .right .pages{
+        width:220px;
+        margin-bottom: -80px;
+    }
+    footer .container .right .contact{
+        width:220px;
+        margin-top: 300px;
+        margin-bottom: -80px;
+    }
+    footer .container .left .by{
+        margin-top:880px;
+        margin-left: 50px;
+    }
+    footer .container .right .guimail{
+        margin-bottom:100px;
+    }    
+    footer .container .left .by a {
+        font-weight: 500;
+        margin-left: -10px;
+        font-size: 13px;
+    }
+    footer .container .left .tt{
+        margin-bottom:-840px;
+        margin-top: 970px;
+        z-index: 1;
+        margin-left: -95px;
+    }
+     footer .container .right .guimail button {
+       width:50px;
+       border-radius: 9px;
+       font-size: 11px;
+       font-weight: 400;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       background-color: orange;
+    }
+}
+      /* 600px < 414px */
+@media only screen and (max-width:600px)and (min-width:414px) {
+    html{
+        overflow-x:hidden;
+    }
+    .container-fluid .row .col .thong-tin-sp{
+        height: auto;
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp{
+        width:280px;
+        line-height:30px;
+        margin-bottom: 20px;
+    }
+    #BANNER-RIGHT .row .col .tendv a{
+    font-size:45px;
+    width:300px;
+    text-align: center;
+    margin-left: -10px;
+    margin-top:270px;
+    }
+    .container-fluid .timsp{
+        margin-bottom:20px;
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp a{
+        margin-left: 0px;  
+    }
+    .container-fluid .row .col .thong-tin-sp .name-sp .namepage{
+        font-weight:600;
+    }
+    .container-fluid .row .col .thong-tin-sp .sx .sxt{
+        margin-left:-30px;
+    }
+    .container-fluid .row .col .thong-tin-sp ul{
+        flex-direction: column;
+    }
+    .container-fluid .row .col .thong-tin-sp a{
+        width:100px;
+        margin-left: -30px;
+    }
+    .container-fluid .row .col .thong-tin-sp .sx{
+        margin-left:-50px;
+        line-height:40px;
+    }
+    .container-fluid .page{
+        width:250px;
+        margin-bottom: 10px;
+    }
+    .container-fluid .timsp{
+        margin-left: -1000px;
+    }
+    .container-fluid .timsp #search input{
+     width:250px;
+    }
+    .container-fluid .timsp button{
+        width:50px;
+    }
+    .container-fluid .content ul{
+        /* flex-direction: column; */
+    }
+    .container-fluid .content .dmsp{
+        width:150px;
+    }
+    .container-fluid .content .dmsp .cpm {
+        font-size: 13px;
+    }
+    .container-fluid .content .product .row .col .pro{
+        width:70%;
+        margin-left: 90px;
+    }
+    .container-fluid .content .product .pt{
+        margin-left:100px;
+    }
+    .container-fluid .tong{
+        width:200px;
+        margin-left:-30px;
+    }
+    .container-fluid .product{
+        margin-left:-80px;
+    }
+    .container-fluid .product .pt{
+        margin-left:190px;
+    }
+    .banner-laptop .row .col img{
+        width:280px;
+        margin-left:-268px;
+    }
+    .container-fluid .product .row ul{
+        flex-direction: column;
+    }
+    footer{
+        margin-bottom: -900px;
+        height:1360px;
+    }
+    footer .container .left .logo{
+       width:500px;
+       margin-top: 50px;
+       margin-left: 50px;
+    }
+    footer .container .left .logo img{
+    }
+    footer .container .left .fpoly1{
+        margin-top: 310px;
+    }
+    footer .container .left .fpoly1 a{
+        font-size:40px;
+        margin-left:40px;
+    }
+    footer .container .right ul{
+        flex-direction: column;
+    }
+    footer .container .right{
+        margin-top: 10px;
+        margin-right: 120px;
+    }
+    footer .container .khung{
+        display:none;
+    }
+    footer .fg2{
+        margin-top:1150px;
+    }
+    footer .container .right .pages{
+        width:220px;
+        margin-bottom: -80px;
+    }
+    footer .container .right .contact{
+        width:220px;
+        margin-top: 300px;
+        margin-bottom: -80px;
+    }
+    footer .container .left .by{
+        margin-top:880px;
+        margin-left: 60px;
+    }
+    footer .container .right .guimail{
+        margin-bottom:100px;
+    }    
+    footer .container .left .by a {
+        font-weight: 500;
+        margin-left: -10px;
+        font-size: 13px;
+    }
+    footer .container .left .tt{
+        margin-bottom:-840px;
+        margin-top: 970px;
+        z-index: 1;
+        margin-left: -95px;
+    }
+     footer .container .right .guimail button {
+       width:50px;
+       border-radius: 9px;
+       font-size: 11px;
+       font-weight: 400;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       background-color: orange;
+    }
+}
+        /* 767px < 600px */
+      /* 767px < 600px */
+    @media only screen and (max-width:767px) and (min-width:600px) {
+        html{
+            overflow-x:hidden;
+        }
+        .container-fluid .row .col .thong-tin-sp{
+            height: auto;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp{
+            width:280px;
+            line-height:30px;
+            margin-bottom: 20px;
+        }
+        #BANNER-RIGHT .row .col .tendv a{
+        font-size:60px;
+        width:400px;
+        text-align: center;
+        margin-left: -10px;
+        margin-top:240px;
+        }
+        .container-fluid .timsp{
+            margin-bottom:20px;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp a{
+            margin-left: 0px;  
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp .namepage{
+            font-weight:600;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx .sxt{
+            margin-left:-30px;
+        }
+        .container-fluid .row .col .thong-tin-sp ul{
+            flex-direction: column;
+        }
+        .container-fluid .row .col .thong-tin-sp a{
+            width:100px;
+            margin-left: -30px;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx{
+            margin-left:-50px;
+            line-height:40px;
+        }
+        .container-fluid .page{
+            width:250px;
+            margin-bottom: 10px;
+        }
+        .container-fluid .timsp{
+            margin-left: -800px;
+        }
+        .container-fluid .timsp #search input{
+         width:250px;
+        }
+        .container-fluid .timsp button{
+            width:50px;
+        }
+        .container-fluid .timsp #search input{
+         width:300px;
+        }
+        .container-fluid .content ul{
+            /* flex-direction: column; */
+        }
+        .container-fluid .content .dmsp{
+            width:220px;
+        }
+        .container-fluid .content .dmsp .cpm {
+            font-size: 15px;
+        }
+        .container-fluid .content .product .row .col .pro{
+            width:70%;
+            margin-left: 90px;
+        }
+        .container-fluid .content .product .row .col .pro img{
+            height:160px;
+        }
+        .container-fluid .content .product .pt{
+            margin-left:100px;
+        }
+        .container-fluid .tong{
+            width:200px;
+            margin-left:-30px;
+        }
+        .container-fluid .product{
+            margin-left:-80px;
+        }
+        .container-fluid .product .pt{
+            margin-left:190px;
+        }
+        .banner-laptop .row .col img{
+            width:280px;
+            margin-left:-268px;
+        }
+        .container-fluid .product .row ul{
+            flex-direction: column;
+        }
+        footer{
+            margin-bottom: -900px;
+            height:1360px;
+        }
+        footer .container .left .logo{
+           width:500px;
+           margin-top: 50px;
+           margin-left: 150px;
+        }
+        footer .container .left .logo img{
+        }
+        footer .container .left .fpoly1{
+            margin-top: 310px;
+        }
+        footer .container .left .fpoly1 a{
+            font-size:40px;
+            margin-left:40px;
+        }
+        footer .container .right ul{
+            flex-direction: column;
+        }
+        footer .container .right{
+            margin-top: 10px;
+            margin-right: 120px;
+        }
+        footer .container .khung{
+            display:none;
+        }
+        footer .fg2{
+            margin-top:1150px;
+        }
+        footer .container .right .pages{
+            width:220px;
+            margin-bottom: -80px;
+        }
+        footer .container .right .contact{
+            width:220px;
+            margin-top: 300px;
+            margin-bottom: -80px;
+        }
+        footer .container .left .by{
+            margin-top:880px;
+            margin-left: 120px;
+        }
+        footer .container .right .guimail{
+            margin-bottom:100px;
+        }    
+        footer .container .left .by a {
+            font-weight: 500;
+            margin-left: -10px;
+            font-size: 13px;
+        }
+        footer .container .left .tt{
+            margin-bottom:-840px;
+            margin-top: 970px;
+            z-index: 1;
+            margin-left: -35px;
+        }
+         footer .container .right .guimail button {
+           width:50px;
+           border-radius: 9px;
+           font-size: 11px;
+           font-weight: 400;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           background-color: orange;
+        }
+    }
+    @media only screen and (max-width:830px) and (min-width:767px){
+        html{
+            overflow-x:hidden;
+        }
+        .container-fluid .row .col .thong-tin-sp{
+            height: auto;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp{
+            width:280px;
+            line-height:30px;
+            margin-bottom: 20px;
+        }
+        #BANNER-RIGHT .row .col .tendv a{
+        font-size:60px;
+        width:400px;
+        text-align: center;
+        margin-left: -10px;
+        margin-top:240px;
+        }
+        .container-fluid .timsp{
+            margin-bottom:20px;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp a{
+            margin-left: 0px;  
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp .namepage{
+            font-weight:600;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx .sxt{
+            margin-left:-30px;
+        }
+        .container-fluid .row .col .thong-tin-sp ul{
+            flex-direction: column;
+        }
+        .container-fluid .row .col .thong-tin-sp a{
+            width:100px;
+            margin-left: -30px;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx{
+            margin-left:-50px;
+            line-height:40px;
+        }
+        .container-fluid .page{
+            width:250px;
+            margin-bottom: 10px;
+        }
+        .container-fluid .timsp{
+            margin-left: -700px;
+        }
+        .container-fluid .timsp #search input{
+         width:250px;
+        }
+        .container-fluid .timsp button{
+            width:50px;
+        }
+        .container-fluid .timsp #search input{
+         width:300px;
+        }
+        .container-fluid .content ul{
+            /* flex-direction: column; */
+        }
+        .container-fluid .content .dmsp{
+            width:270px;
+        }
+        .container-fluid .content .dmsp .cpm {
+            font-size: 15px;
+        }
+        .container-fluid .content .product .row .col .pro{
+            width:60%;
+            margin-left: 120px;
+        }
+        .container-fluid .content .product .row .col .pro img{
+            height:160px;
+        }
+        .container-fluid .content .product .pt{
+            margin-left:100px;
+        }
+        .container-fluid .tong{
+            width:200px;
+            margin-left:-30px;
+        }
+        .container-fluid .product{
+            margin-left:-80px;
+        }
+        .container-fluid .product .pt{
+            margin-left:190px;
+        }
+        .banner-laptop .row .col img{
+            width:280px;
+            margin-left:-268px;
+        }
+        .container-fluid .product .row ul{
+            flex-direction: column;
+        }
+        footer{
+            margin-bottom: -900px;
+            height:1360px;
+        }
+        footer .container .left .logo{
+           width:500px;
+           margin-top: 50px;
+           margin-left: 150px;
+        }
+        footer{
+            margin-bottom: -900px;
+            height:800px;
+        }
+        footer .container .left .logo{
+           width:550px;
+           margin-top: 50px;
+           margin-left: 130px;
+        }
+        footer .container .left .fpoly1{
+            margin-left:-525px;
+            margin-top:289px;
+        }
+        footer .container .left .fpoly1 a{
+            font-size:30px;
+        }
+        footer .container .right ul{
+            flex-direction: row;
+        }
+        footer .container .right{
+            margin-right:250px;
+            margin-top:20px;
+        }
+        footer .container .khung{
+            display:none;
+            margin-left:-60px;
+            margin-bottom:-900px;
+        }
+        footer .fg2{
+            margin-top:600px;
+        }
+        footer .container .right .pages{
+            width:170px;
+            margin-top: 250px;
+            margin-right: 50px;
+        }
+        footer .container .right .contact{
+            width:170px;
+            margin-top: 250px;
+            margin-bottom: -80px;
+            font-size:15px;
+            margin-right: 50px;
+            margin-left: -15px;
+        }
+        footer .container .left .by{
+            margin-top:50px;
+            font-size: 15px;
+            margin-left:151px;
+        }
+        footer .container .left .by a {
+            font-weight: 500;
+            font-size: 14px;
+        }
+        footer .container .right .guimail{
+            margin-top:250px;
+            width:170px;
+        }   
+        footer .container .right .guimail .abcd{
+            flex-direction: column-reverse;
+        }
+        footer .container .right .guimail input {
+            width:105px;
+      
+        }
+        footer .container .right .guimail button {
+           width:40px;
+           border-radius: 9px;
+           font-size: 11px;
+           font-weight: 400;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           background-color: orange;
+        }
+        footer .container .right .guimail input {
+            font-size:12px;
+            height:30px;
+            border-radius: 7px;
+        }
+        footer .container .left .tt{
+            margin-left:35px;
+            margin-top:380px;
+        } 
+    }
+    @media only screen and (max-width:866px) and (min-width:830px){
+        html{
+            overflow-x:hidden;
+        }
+        .container-fluid .row .col .thong-tin-sp{
+            height: auto;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp{
+            width:280px;
+            line-height:30px;
+            margin-bottom: 20px;
+        }
+        #BANNER-RIGHT .row .col .tendv a{
+        font-size:60px;
+        width:400px;
+        text-align: center;
+        margin-left: -10px;
+        margin-top:160px;
+        }
+        .container-fluid .timsp{
+            margin-bottom:20px;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp a{
+            margin-left: 0px;  
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp .namepage{
+            font-weight:600;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx .sxt{
+            margin-left:-30px;
+        }
+        .container-fluid .row .col .thong-tin-sp ul{
+            flex-direction: column;
+        }
+        .container-fluid .row .col .thong-tin-sp a{
+            width:100px;
+            margin-left: -30px;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx{
+            margin-left:-50px;
+            line-height:40px;
+        }
+        .container-fluid .page{
+            width:250px;
+            margin-bottom: 10px;
+        }
+        .container-fluid .timsp{
+            margin-left: -700px;
+        }
+        .container-fluid .timsp #search input{
+         width:250px;
+        }
+        .container-fluid .timsp button{
+            width:50px;
+        }
+        .container-fluid .timsp #search input{
+         width:300px;
+        }
+        .container-fluid .content ul{
+            /* flex-direction: column; */
+        }
+        .container-fluid .content .dmsp{
+            width:300px;
+        }
+        .container-fluid .content .dmsp .cpm {
+            font-size: 15px;
+        }
+        .container-fluid .content .product .row .col .pro{
+            width:70%;
+            margin-left: 120px;
+        }
+        .container-fluid .content .product .row .col .pro img{
+            height:160px;
+        }
+        .container-fluid .content .product .pt{
+            margin-left:400px;
+        }
+        .container-fluid .tong{
+            width:200px;
+            margin-left:-30px;
+        }
+        .container-fluid .product{
+            margin-left:-80px;
+        }
+        .container-fluid .product .pt{
+            margin-left:190px;
+        }
+        .banner-laptop .row .col img{
+            width:280px;
+            margin-left:-268px;
+        }
+        .container-fluid .product .row ul{
+            flex-direction: column;
+        }
+        footer{
+            margin-bottom: -900px;
+            height:800px;
+        }
+        footer .container .left .logo{
+           width:550px;
+           margin-top: 50px;
+           margin-left: 200px;
+        }
+        footer .container .left .fpoly1{
+            margin-left:-525px;
+            margin-top:289px;
+        }
+        footer .container .left .fpoly1 a{
+            font-size:30px;
+        }
+        footer .container .right ul{
+            flex-direction: row;
+        }
+        footer .container .right{
+            margin-right:250px;
+            margin-top:20px;
+        }
+        footer .container .khung{
+            display:none;
+            margin-left:-60px;
+            margin-bottom:-900px;
+        }
+        footer .fg2{
+            margin-top:600px;
+        }
+        footer .container .right .pages{
+            width:170px;
+            margin-top: 250px;
+            margin-right: 50px;
+        }
+        footer .container .right .contact{
+            width:170px;
+            margin-top: 250px;
+            margin-bottom: -80px;
+            font-size:15px;
+            margin-right: 50px;
+            margin-left: -15px;
+        }
+        footer .container .left .by{
+            margin-top:50px;
+            font-size: 15px;
+            margin-left:221px;
+        }
+        footer .container .left .by a {
+            font-weight: 500;
+            font-size: 14px;
+        }
+        footer .container .right .guimail{
+            margin-top:250px;
+            width:170px;
+        }   
+        footer .container .right .guimail .abcd{
+            flex-direction: column-reverse;
+        }
+        footer .container .right .guimail input {
+            width:105px;
+      
+        }
+        footer .container .right .guimail button {
+           width:40px;
+           border-radius: 9px;
+           font-size: 11px;
+           font-weight: 400;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           background-color: orange;
+        }
+        footer .container .right .guimail input {
+            font-size:12px;
+            height:30px;
+            border-radius: 7px;
+        }
+        footer .container .left .tt{
+            margin-left:95px;
+            margin-top:380px;
+        } 
+    }
+    @media only screen and (max-width:991px) and (min-width:866px){
+        html{
+            overflow-x:hidden;
+        }
+        .container-fluid .row .col .thong-tin-sp{
+            height: auto;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp{
+            width:300px;
+            line-height:40px;
+            margin-bottom: 20px;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp{
+            margin-left: -40px;
+        }
+        #BANNER-RIGHT .row .col .tendv a{
+        font-size:60px;
+        width:400px;
+        text-align: center;
+        margin-left: -10px;
+        margin-top:160px;
+        }
+        .container-fluid .timsp{
+            margin-bottom:20px;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp a{
+            
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp .namepage{
+            font-weight:600;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx .sxt{
+            margin-left:20px;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx{
+           margin-left:10px;
+        }
+        /* .container-fluid .row .col .thong-tin-sp ul{
+            flex-direction: column;
+        } */
+        .container-fluid .row .col .thong-tin-sp a{
+            width:100px;
+            margin-left: 5px;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx{
+            margin-left:50px;
+            line-height:40px;
+        }
+        .container-fluid .page{
+            width:250px;
+            margin-bottom: 10px;
+        }
+        .container-fluid .timsp{
+            margin-left: -640px;
+        }
+        .container-fluid .timsp #search input{
+         width:250px;
+        }
+        .container-fluid .timsp button{
+            width:50px;
+        }
+        .container-fluid .timsp #search input{
+         width:300px;
+        }
+        .container-fluid .content ul{
+            /* flex-direction: column; */
+        }
+        .container-fluid .content .dmsp{
+            width:140px;
+        }
+        .container-fluid .content .dmsp .cpm {
+            font-size: 15px;
+        }
+        .container-fluid .content .product .row .col .pro{
+            margin-left: -20px;
+            width:164px;
+        }
+        .container-fluid .content .product .row .col .pro img{
+            height:135px;
+        }
+        .container-fluid .tong{
+            width:200px;
+            margin-left:-30px;
+        }
+        .container-fluid .product{
+            margin-left:20px;
+        }
+        .container-fluid .content .product .pt{
+            margin-left:490px;
+        }
+        .banner-laptop .row .col img{
+            width:280px;
+            margin-left:-268px;
+        }
+        footer{
+            margin-bottom: -900px;
+            height:800px;
+        }
+        footer .container .left .logo{
+           width:550px;
+           margin-top: 50px;
+           margin-left: 200px;
+        }
+        footer .container .left .fpoly1{
+            margin-left:-525px;
+            margin-top:289px;
+        }
+        footer .container .left .fpoly1 a{
+            font-size:30px;
+        }
+        footer .container .right ul{
+            flex-direction: row;
+        }
+        footer .container .right{
+            margin-right:250px;
+            margin-top:20px;
+        }
+        footer .container .khung{
+            display:none;
+            margin-left:-60px;
+            margin-bottom:-900px;
+        }
+        footer .fg2{
+            margin-top:600px;
+        }
+        footer .container .right .pages{
+            width:170px;
+            margin-top: 250px;
+            margin-right: 50px;
+        }
+        footer .container .right .contact{
+            width:170px;
+            margin-top: 250px;
+            margin-bottom: -80px;
+            font-size:15px;
+            margin-right: 50px;
+            margin-left: -15px;
+        }
+        footer .container .left .by{
+            margin-top:50px;
+            font-size: 15px;
+            margin-left:221px;
+        }
+        footer .container .left .by a {
+            font-weight: 500;
+            font-size: 14px;
+        }
+        footer .container .right .guimail{
+            margin-top:250px;
+            width:170px;
+        }   
+        footer .container .right .guimail .abcd{
+            flex-direction: column-reverse;
+        }
+        footer .container .right .guimail input {
+            width:105px;
+      
+        }
+        footer .container .right .guimail button {
+           width:40px;
+           border-radius: 9px;
+           font-size: 11px;
+           font-weight: 400;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           background-color: orange;
+        }
+        footer .container .right .guimail input {
+            font-size:12px;
+            height:30px;
+            border-radius: 7px;
+        }
+        footer .container .left .tt{
+            margin-left:95px;
+            margin-top:380px;
+        } 
+    }
+    @media only screen and (max-width:1090px) and (min-width:991px) {
+        html{
+            overflow-x:hidden;
+        }
+        .container-fluid .row .col .thong-tin-sp{
+            height: auto;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp{
+            width:300px;
+            line-height:40px;
+            margin-bottom: 20px;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp{
+            margin-left: -40px;
+        }
+        #BANNER-RIGHT .row .col .tendv a{
+        font-size:70px;
+        width:500px;
+        text-align: center;
+        margin-left: -10px;
+        margin-top:160px;
+        }
+        .container-fluid .timsp{
+            margin-bottom:20px;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp a{
+            
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp .namepage{
+            font-weight:600;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx .sxt{
+            margin-left:20px;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx{
+           margin-left:10px;
+        }
+        /* .container-fluid .row .col .thong-tin-sp ul{
+            flex-direction: column;
+        } */
+        .container-fluid .row .col .thong-tin-sp a{
+            width:100px;
+            margin-left: 5px;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx{
+            margin-left:170px;
+            line-height:40px;
+        }
+        .container-fluid .page{
+            width:250px;
+            margin-bottom: 10px;
+        }
+        .container-fluid .timsp{
+            margin-left: -640px;
+        }
+        .container-fluid .timsp #search input{
+         width:250px;
+        }
+        .container-fluid .timsp button{
+            width:50px;
+        }
+        .container-fluid .timsp #search input{
+         width:300px;
+        }
+        .container-fluid .content ul{
+            /* flex-direction: column; */
+        }
+        .container-fluid .content .dmsp{
+            width:120px;
+        }
+        .container-fluid .content .dmsp .cpm {
+            font-size: 15px;
+        }
+        .container-fluid .content .product .row .col .pro{
+            margin-left: -20px;
+            width:200px;
+        }
+        .container-fluid .content .product .row .col .pro img{
+            height:135px;
+        }
+        .container-fluid .content .product .pt{
+            margin-left:100px;
+        }
+        .container-fluid .tong{
+            width:200px;
+            margin-left:-30px;
+        }
+        .container-fluid .product{
+            margin-left:20px;
+            
+        }
+        .container-fluid .content .product .pt{
+            margin-left:590px;
+        }
+        .banner-laptop .row .col img{
+            width:280px;
+            margin-left:-268px;
+        }
+        /* .container-fluid .product .row ul{
+            flex-direction: column;
+        } */
+        footer{
+            margin-bottom: -900px;
+            height:800px;
+        }
+        footer .container .left .logo{
+           width:550px;
+           margin-top: 50px;
+           margin-left: 310px;
+        }
+        footer .container .left .fpoly1{
+            margin-left:-525px;
+            margin-top:289px;
+        }
+        footer .container .left .fpoly1 a{
+            font-size:30px;
+        }
+        footer .container .right ul{
+            flex-direction: row;
+        }
+        footer .container .right{
+            margin-right:250px;
+            margin-top:20px;
+        }
+        footer .container .khung{
+            display:none;
+            margin-left:-60px;
+            margin-bottom:-900px;
+        }
+        footer .fg2{
+            margin-top:600px;
+        }
+        footer .container .right .pages{
+            width:170px;
+            margin-top: 250px;
+            margin-right: 50px;
+        }
+        footer .container .right .contact{
+            width:170px;
+            margin-top: 250px;
+            margin-bottom: -80px;
+            font-size:15px;
+            margin-right: 50px;
+            margin-left: -15px;
+        }
+        footer .container .left .by{
+            margin-top:50px;
+            font-size: 15px;
+            margin-left:321px;
+        }
+        footer .container .left .by a {
+            font-weight: 500;
+            font-size: 14px;
+        }
+        footer .container .right .guimail{
+            margin-top:250px;
+            width:170px;
+        }   
+        footer .container .right .guimail .abcd{
+            flex-direction: column-reverse;
+        }
+        footer .container .right .guimail input {
+            width:105px;
+      
+        }
+        footer .container .right .guimail button {
+           width:40px;
+           border-radius: 9px;
+           font-size: 11px;
+           font-weight: 400;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           background-color: orange;
+        }
+        footer .container .right .guimail input {
+            font-size:12px;
+            height:30px;
+            border-radius: 7px;
+        }
+        footer .container .left .tt{
+            margin-left:185px;
+            margin-top:380px;
+        } 
+    }
+    @media only screen and (max-width:1365px) and (min-width:1090px){
+        html{
+            overflow-x:hidden;
+        }
+        .container-fluid .row .col .thong-tin-sp{
+            width:100%;
+            height:auto;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx{
+            margin-left:200px;
+            width:500px;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp{
+            width: 300px;
+        }
+        .container-fluid .page{
+            width:100%;
+            margin-left: -380px;
+            margin-bottom: 10px;
+        }
+        .container-fluid .timsp{
+            margin-left: -400px;
+        }
+        .container-fluid .timsp #search input{
+         width:300px;
+        }
+        .container-fluid .timsp button{
+            width:50px;
+        }
+        .container-fluid .content ul{
+            /* flex-direction: column; */
+        }
+        .container-fluid .content .dmsp{
+            width:150px;
+        }
+        .container-fluid .content .dmsp .cpm {
+            font-size: 15px;
+        }
+        .container-fluid .content .product .row .col .pro{
+            margin-left: 0px;
+            width:100%;
+        }
+        .container-fluid .content .product .row .col .pro img{
+            height:135px;
+        }
+        .container-fluid .content .product .pt{
+            margin-left:100px;
+        }
+        .container-fluid .tong{
+            width:200px;
+            margin-left:-30px;
+        }
+        .container-fluid .product{
+            margin-left:0px;
+            
+        }
+        .container-fluid .content .product .pt{
+            margin-left:590px;
+        }
+        .banner-laptop .row .col img{
+            width:280px;
+            margin-left:-268px;
+        }
+        /* .container-fluid .product .row ul{
+            flex-direction: column;
+        } */
+        footer{
+            margin-bottom: -900px;
+            height:800px;
+        }
+        footer .container .left .logo{
+           width:550px;
+           margin-top: 50px;
+           margin-left: 310px;
+        }
+        footer .container .left .fpoly1{
+            margin-left:-525px;
+            margin-top:289px;
+        }
+        footer .container .left .fpoly1 a{
+            font-size:30px;
+        }
+        footer .container .right ul{
+            flex-direction: row;
+        }
+        footer .container .right{
+            margin-right:250px;
+            margin-top:20px;
+        }
+        footer .container .khung{
+            display:none;
+            margin-left:-60px;
+            margin-bottom:-900px;
+        }
+        footer .fg2{
+            margin-top:600px;
+        }
+        footer .container .right .pages{
+            width:170px;
+            margin-top: 250px;
+            margin-right: 50px;
+        }
+        footer .container .right .contact{
+            width:170px;
+            margin-top: 250px;
+            margin-bottom: -80px;
+            font-size:15px;
+            margin-right: 50px;
+            margin-left: -15px;
+        }
+        footer .container .left .by{
+            margin-top:50px;
+            font-size: 15px;
+            margin-left:321px;
+        }
+        footer .container .left .by a {
+            font-weight: 500;
+            font-size: 14px;
+        }
+        footer .container .right .guimail{
+            margin-top:250px;
+            width:170px;
+        }   
+        footer .container .right .guimail .abcd{
+            flex-direction: column-reverse;
+        }
+        footer .container .right .guimail input {
+            width:105px;
+      
+        }
+        footer .container .right .guimail button {
+           width:40px;
+           border-radius: 9px;
+           font-size: 11px;
+           font-weight: 400;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           background-color: orange;
+        }
+        footer .container .right .guimail input {
+            font-size:12px;
+            height:30px;
+            border-radius: 7px;
+        }
+        footer .container .left .tt{
+            margin-left:185px;
+            margin-top:380px;
+        } 
+    }
+    @media only screen and (max-width:1400px) and (min-width:1365px){
+        html{
+            overflow-x:hidden;
+        }
+        .container-fluid .row .col .thong-tin-sp{
+            width:100%;
+            height:auto;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx{
+            margin-left:450px;
+            width:500px;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp{
+            width: 300px;
+        }
+        .container-fluid .page{
+            width:100%;
+            margin-left: -500px;
+            margin-bottom: 10px;
+        }
+        .container-fluid .timsp{
+            margin-left: -100px;
+            margin-bottom: 20px;
+        }
+        .container-fluid .timsp #search input{
+         width:300px;
+        }
+        .container-fluid .timsp button{
+            width:50px;
+        }
+        .container-fluid .content ul{
+            /* flex-direction: column; */
+        }
+        .container-fluid .content .dmsp{
+            width:240px;
+        }
+        .container-fluid .content .dmsp .cpm {
+            font-size: 15px;
+        }
+        .container-fluid .content .product .row .col .pro{
+            margin-left: 1px;
+            width:100%;
+        }
+        .container-fluid .content .product .row .col .pro img{
+            height:135px;
+        }
+        .container-fluid .content .product .pt{
+            margin-left:100px;
+        }
+        .container-fluid .tong{
+            width:200px;
+            margin-left:-30px;
+        }
+        .container-fluid .product{
+            margin-left:10px;
+            
+        }
+        .container-fluid .content .product .pt{
+            margin-left:590px;
+        }
+        .banner-laptop .row .col img{
+            width:280px;
+            margin-left:-268px;
+        }
+        /* .container-fluid .product .row ul{
+            flex-direction: column;
+        } */
+   
+    }
+    @media only screen and (min-width:1400px){
+        html{
+            overflow-x:hidden;
+        }
+        .container-fluid .row .col .thong-tin-sp{
+            width:100%;
+            height:auto;
+        }
+        .container-fluid .row .col .thong-tin-sp .sx{
+            margin-left:450px;
+            width:500px;
+        }
+        .container-fluid .row .col .thong-tin-sp .name-sp{
+            width: 300px;
+        }
+        .container-fluid .page{
+            width:100%;
+            margin-left: -500px;
+            margin-bottom: 10px;
+        }
+        .container-fluid .timsp{
+            margin-left: -100px;
+            margin-bottom: 20px;
+        }
+        .container-fluid .timsp #search input{
+         width:300px;
+        }
+        .container-fluid .timsp button{
+            width:50px;
+        }
+        .container-fluid .content ul{
+            /* flex-direction: column; */
+        }
+        .container-fluid .content .dmsp{
+            width:240px;
+        }
+        .container-fluid .content .dmsp .cpm {
+            font-size: 15px;
+        }
+        .container-fluid .content .product .row .col .pro{
+            margin-left: 1px;
+            width:246px;
+        }
+        .container-fluid .content .product .row .col .pro img{
+            height:135px;
+        }
+        .container-fluid .content .product .pt{
+            margin-left:100px;
+        }
+        .container-fluid .tong{
+            width:200px;
+            margin-left:-30px;
+        }
+        .container-fluid .product{
+            margin-left:10px;
+            
+        }
+        .container-fluid .content .product .pt{
+            margin-left:590px;
+        }
+        .banner-laptop .row .col img{
+            width:280px;
+            margin-left:-268px;
+        }
+        /* .container-fluid .product .row ul{
+            flex-direction: column;
+        } */
+    }
+
